@@ -1,0 +1,56 @@
+.container {
+    position: relative;
+    height: 300px;
+    width:300px;
+    border: 10px solid #100;
+
+}
+
+
+.box{
+    position:absolute;
+    top:3px;
+    left:3px;
+    height:280px;
+    width:280px;
+    background: red;
+
+}
+
+.container1 {
+    height: 500px;
+    background: white;
+    white-space: nowrap;
+    overflow:hidden;
+
+}
+
+.box1 {
+    width:150px;
+    white-space: nowrap;
+    overflow:hidden;
+    border: 1px solid black;
+    text-overflow: ellipsis;
+}
+
+.p1{
+    position: relative;
+    height:400px;
+    width:300px;
+
+
+}
+.p2{
+    position:fixed;
+    float:right;
+    height:400px;
+    width:300px;
+
+
+}
+.p3{
+    position:absolute;
+    height:400px;
+    width:300px;
+
+}
